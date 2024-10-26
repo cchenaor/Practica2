@@ -14,6 +14,9 @@ on:
   pull_request:
     branches: [ "master" ]
 
+permissions:
+  contents: read        # Permite leer el contenido del repositorio
+  pull-requests: write  # Permite escribir en las solicitudes de extracción
 jobs:
   build:
 
