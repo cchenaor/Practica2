@@ -15,8 +15,9 @@ on:
     branches: [ "master" ]
 
 permissions:
-  contents: read        # Permite leer el contenido del repositorio
-  pull-requests: write  # Permite escribir en las solicitudes de extracción
+  contents: read
+  pull-requests: write
+  security-events: write 
 jobs:
   build:
 
